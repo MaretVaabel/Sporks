@@ -309,6 +309,12 @@ nav ul li a {
 font-size: 14px;
 
 }
+.Spork img {
+    width: 200px;
+    height: auto;
+    float: center;
+    padding: 40px;
+}
 }
 
 
