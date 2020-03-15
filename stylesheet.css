@@ -7,7 +7,7 @@ header .header-banner {
 display: table;
 background-image: url("spork_800.jpg");
 width: 100%;
-height: calc(100vh - 500px);
+height: calc(100vh - 700px);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
