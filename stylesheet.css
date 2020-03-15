@@ -5,7 +5,7 @@
 header .header-banner {
 
 display: table;
-background-image: url("sporkHead.jpg");
+background-image: url("spork_800.jpg");
 width: 100%;
 height: calc(100vh - 500px);
 background-repeat: no-repeat;
@@ -282,6 +282,12 @@ header nav ul li {
 
 }
 @media only screen and (min-width: 950px) {
+
+header .header-banner {
+
+    background-image: url("sporkHead.jpg");
+
+}
 
 .disclaimer {
 
