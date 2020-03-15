@@ -173,52 +173,6 @@ text-align: center;
 
 }
 
-.gallery-image {
-
-margin: 10px;
-position: relative;
-text-align: center;
-    -webkit-flex-basis: 300px;
--moz-flex-basis: 300px;
-flex-basis: 300px;
-
-} 
-
-.post-header {       
-
-/*kujundus*/
-
-font-family: "Open Sans", sans-serif;
-font-weight: 700;
-font-size: 22px;
-letter-spacing: 3px;
-line-height: 24px;
-color: #ffffff;
-text-transform: uppercase;
-text-shadow: 3px 3px 9px #111111;
-
-   /*positsioneerimine*/
-
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-
-}
-.gallery-links {
-
-display: flex;
-flex-flow: row wrap;
-display: -webkit-flex;
--webkit-flex-flow: row wrap;
-display: -moz-flex;
--moz-flex-flow: row wrap;
-justify-content: center;
--o-flex-flow: row wrap;
-justify-content: center;
-
-}
-
 .Spork {
     margin: 30px;
     font-family: "Gentium Basic", sans-serif;
@@ -241,8 +195,7 @@ justify-content: center;
 .Spork img {
     width: 200px;
     height: auto;
-    float: right;
-    margin-right: 150px;
+    float: center;
     padding: 20px;
 }
 
@@ -341,6 +294,14 @@ footer ul li p {
 
 footer ul li a {
     font-size: 18px;
+}
+
+.Spork img {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-right: 150px;
+    padding: 20px;
 }
 
 }
